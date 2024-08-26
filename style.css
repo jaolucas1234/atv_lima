@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container{
+    width: 100%;
+    background: red;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+    & .container2{
+        width: 50%;
+        padding: 15px;
+    }
+
+    & .container2 img{
+        width: 150px;
+        height: 150px;
+    }
+
+
+    & .container3{
+        width: 50%;
+        padding: 15px;
+
+    }
+
+    & .container3 nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        margin: 5px;
+    }
+
+    & .container3 nav a:hover{
+        color: gray;
+        font-size: 18px;
+    }
+}
+ 
+.containerbody{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+
+    & .divbanner img{
+        width: 1200px;
+        height: auto;
+        border-radius: 16px;
+        box-shadow: 5px 5px 5px  gray;
+    }
+
+    & .divbanner img:hover{
+        width: 1300px;
+        transform: scale(1.1);
+        transition: transform 1.0s ease;
+    }
+
+
+}
+
+.containertexto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0%;
+    padding-top: 30px;
+
+    & .divtexto1 span{
+        width: 25%;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5px;
+
+    & .diving {
+        width: 70%;
+    }
+
+    & .diving img {
+        width: 250px;
+        height: 100px;
+    }
+}
+
